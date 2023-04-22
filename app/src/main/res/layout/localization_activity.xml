@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="721dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/address_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Ingresa una dirección" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_input"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="65dp"
+        android:text="Buscar" />
+</RelativeLayout>
